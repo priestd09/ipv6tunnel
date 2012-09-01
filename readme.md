@@ -1,15 +1,18 @@
-# ipv6tunnel.sh
+# ipv6tunnel
 
-A simple bash script for managing ipv6 tunnel.
-
+A simple bash script for managing IPv6 over IPv4 tunnels.
 
 ## Installation
 
-Copy ipv6tunnel.sh in ``/etc/init.d``
-edit config variables for your needs
-run ``update-rc.d ipv6tunnel.sh defaults``
-and start the tunnel with ``service ipv6tunnel.sh start``
-to stop the tunnel use ``service ipv6tunnel.sh stop``
+Copy ipv6tunnel in your ``/etc/init.d`` folder.
+
+Set configuration variables for your tunnel ``nano ipv6tunnel``.
+
+Run as root ``update-rc.d ipv6tunnel defaults``.
+
+Now you can start the tunnel with ``service ipv6tunnel start``.
+
+And stop it with ``service ipv6tunnel stop``.
 
 ## License
-This program is licensed under GNU General Public License version 3 (or later) by the Free Software Foundation.
+This program is free software under GNU General Public License version 3 (or later) by the Free Software Foundation.
